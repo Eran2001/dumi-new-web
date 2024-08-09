@@ -104,6 +104,23 @@
     padding: 20px 50px;
     border-radius: 40px;
   }
+
+  .hero img {
+    height: 250px;
+    width: auto;
+  }
+
+  .hero span {
+    font-size: 40px;
+  }
+
+  .hero h1 {
+    font-size: 35px;
+  }
+}
+
+@media(max-width:1230px) {
+  
 }
 
 

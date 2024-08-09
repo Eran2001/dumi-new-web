@@ -10,7 +10,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "d431e304-fb91-44ac-9476-028167c4f658");
+    formData.append("access_key", "57d7e93b-8d2e-454f-9433-25047f4410e9");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -38,16 +38,16 @@ const Contact = () => {
       <div className="contact-section">
         <div className="contact-left">
           <h1>let's talk</h1>
-          <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
+          <p>I'm currently avaliable to take on new designs, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
           <div className='contact-details'>
             <div className="contact-detail">
-              <img src={mail_icon} alt="" /> <p>example@gmail.com</p>
+              <img src={mail_icon} alt="" /> <p>dumindudulanjana17@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="" /> <p>+94 123456789</p>
+              <img src={location_icon} alt="" /> <p>+94 74 0 519662</p>
             </div>
             <div className="contact-detail">
-              <img src={call_icon} alt="" /> <p>Horana, Sri Lanka</p>
+              <img src={call_icon} alt="" /> <p>Colombo, Sri Lanka</p>
             </div>
           </div>
         </div>
