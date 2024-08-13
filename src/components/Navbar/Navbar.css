@@ -124,7 +124,7 @@
   }
 }
 
-@media(max-width:1230px) {
+@media(max-width:412px) {
   .navbar {
     margin: 20px 50px;
   }
@@ -174,8 +174,4 @@
     flex-direction: row;
     gap: 20px;
   }
-}
-
-@media(max-width:1230px) {
-
 }
