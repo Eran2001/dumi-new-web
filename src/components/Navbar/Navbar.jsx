@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar' id='navbar'>
-      <img src="/public/neo-new.png" className="logo" alt="" />
+      <img src="/src/assets/neo-new.png" className="logo" alt="" />
       <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
       <ul ref={menuRef} className='nav-menu'>
         <img src={menu_close} onClick={openClose} alt="" className="nav-mob-close" />
