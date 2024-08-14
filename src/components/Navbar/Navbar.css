@@ -151,7 +151,7 @@ body {
     overflow-x: hidden;
     width: 7%;
     display: block;
-    right: 30px;
+    right: 0px;
     cursor: pointer;
   }
 }
