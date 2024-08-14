@@ -148,6 +148,10 @@ body {
 
   .nav-mob-open {
     cursor: pointer;
+    overflow-x: hidden;
     width: 7%;
+    display: block;
+    right: 30px;
+    cursor: pointer;
   }
 }
