@@ -61,7 +61,7 @@ body {
   display: none;
 }
 
-/* @media(max-width:768px){
+@media(max-width:500px){
   body {
     overflow-x: hidden;
   }
@@ -115,23 +115,5 @@ body {
     flex-direction: row;
     gap: 20px;
   }
-} */
-
-@media only screen and (max-width: 500px) {
-  .navbar {
-    margin-top: 0px;
-    margin-right: 0px;
-  }
-  .logo {
-    margin-left: -30px;
-  }
-
-  .nav-mob-open {
-    cursor: pointer;
-    overflow-x: hidden;
-    width: 7%;
-    display: block;
-    right: 30px;
-    margin-right: 100px;
-  }
 }
+
