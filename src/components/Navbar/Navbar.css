@@ -125,7 +125,16 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .navbar {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
   .logo {
     margin-left: -30px;
+  }
+
+  .nav-mob-open {
+    cursor: pointer;
+    width: 7%;
   }
 }
