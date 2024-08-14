@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -70,6 +74,10 @@
 }
 
 @media(max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .hero img {
     margin-top: 120px;
     width: 260px;
